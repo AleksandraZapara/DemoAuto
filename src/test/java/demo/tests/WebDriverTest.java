@@ -42,7 +42,7 @@ public class WebDriverTest {
         elementsTab.click();
     }
 
-    @Test(description = "Verify Select fill Name", priority = 4)
+    @Test(description = "Verify fill name", priority = 4)
     public static void testFillName() {
         WebElement textBoxTab = driver.findElement(By.xpath("//span[@class='text']"));
         textBoxTab.click();
